@@ -71,7 +71,7 @@ export default class Connections {
 		intro.classList.add('intro');
 
 		const h1 = document.createElement('h1');
-		h1.textContent = 'onuw';
+		h1.textContent = 'Ronuw';
 		intro.appendChild(h1);
 
 		const div = document.createElement('div');
@@ -83,8 +83,8 @@ export default class Connections {
 		const xLink = document.createElement('a');
 		footer.appendChild(xLink);
 		xLink.href = 'https://michaelxing.com';
-		xLink.textContent = 'Xing';
-		xLink.setAttribute('data-text', 'Xing');
+		xLink.textContent = 'Rutra';
+		xLink.setAttribute('data-text', 'Rutra');
 		intro.appendChild(footer);
 
 		wrapDom.appendChild(intro);
@@ -134,7 +134,7 @@ export default class Connections {
 		m.appendChild(Dom.h1('Host Game'));
 		m.appendChild(Dom.p('Hi there! What\'s your name?'));
 		const nameField = Dom.input('text', 'Name');
-		nameField.setAttribute('maxlength', '35');
+		nameField.setAttribute('maxlength', '32');
 		m.appendChild(nameField);
 
 		let submitting = false;
@@ -173,7 +173,7 @@ export default class Connections {
 
 		const nameField = Dom.input('text', 'Name');
 		const gameField = Dom.input('text', 'Game ID');
-		nameField.setAttribute('maxlength', '35');
+		nameField.setAttribute('maxlength', '32');
 		gameField.setAttribute('maxlength', '5');
 		gameField.setAttribute('minlength', '5');
 
